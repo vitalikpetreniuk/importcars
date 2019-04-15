@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="85.0405mm" height="85.0405mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 9598 9598"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="1526.05" y1="8308.54" x2="8071.7" y2="1289.2">
+   <stop offset="0" style="stop-opacity:1; stop-color:#0072FF"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#F08322"/>
+  </linearGradient>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M7770 0l-5942 0c-1008,0 -1828,820 -1828,1828l0 5942c0,1008 820,1828 1828,1828l5942 0c1008,0 1828,-820 1828,-1828l0 -5942c0,-1008 -820,-1828 -1828,-1828zm-3093 7442l-2709 0 0 -2709c0,-77 -63,-140 -140,-140l-563 0c-77,0 -140,63 -140,140l0 2850c0,77 63,140 140,140l422 0 0 609c0,78 63,141 141,141l2849 0c78,0 141,-63 141,-141l0 -749c0,-78 -63,-141 -141,-141zm-2990 0l-281 0 0 -2568 281 0 0 2568zm2849 750l-2568 0 0 -469 2568 0 0 469zm2859 -3843l-4499 0c-336,0 -609,273 -609,609 0,336 273,609 609,609l2203 0 0 2765c0,78 63,141 140,141l3093 0c78,0 141,-63 141,-141l0 -2905c0,-594 -484,-1078 -1078,-1078zm-2156 937l-2343 0c-181,0 -328,-147 -328,-328 0,-181 147,-328 328,-328l4499 0c169,0 326,53 455,143l-2470 2470 0 -1816c0,-78 -63,-141 -141,-141zm2953 2906l-2812 0 0 -469 2812 0 0 469zm0 -750l-2613 0 2470 -2470c90,129 143,286 143,455l0 2015zm-394 -6317l-2024 0c-78,0 -141,63 -141,140l0 752 -797 0c-77,0 -140,63 -140,140 0,78 63,141 140,141l2822 0 0 617c0,481 -391,872 -872,872 -481,0 -872,-391 -872,-872l0 -195c0,-78 -63,-141 -140,-141 -78,0 -141,63 -141,141l0 195c0,636 517,1153 1153,1153 636,0 1153,-517 1153,-1153l0 -1650c0,-77 -63,-140 -141,-140zm-140 892l-1744 0 0 -611 1744 0 0 611zm1659 5753c0,853 -694,1547 -1547,1547l-5942 0c-853,0 -1547,-694 -1547,-1547l0 -5942c0,-853 694,-1547 1547,-1547l5942 0c853,0 1547,694 1547,1547l0 5942z"/>
+ </g>
+</svg>
