@@ -40,6 +40,19 @@
 					<div class="header-contacts-call">
 						<button class="header-contacts-title">(044) 123 45 45</button>
 						<div class="header-contacts-subtitle">Заказать звонок</div>
+						<div class="header-contacts-drop">
+							<ul>
+								<li>
+									<a href="tel:+380971234545">(097) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380631234545">(063) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380661234545">(066) 123 45 45</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="header-contacts-address">
 						<button class="header-contacts-title">Адреса офисов</button>
@@ -58,29 +71,58 @@
 	</header>
 	<div class="menu-wrap">
 		<div class="container">
-			<ul>
-				<li>
-					<a href="#">Преимущества</a>
-				</li>
-				<li>
-					<a href="#">О нас</a>
-				</li>
-				<li>
-					<a href="#">Примеры привезенных авто</a>
-				</li>
-				<li>
-					<a href="#">Как все работает</a>
-				</li>
-				<li>
-					<a href="#">Отзывы</a>
-				</li>
-				<li>
-					<a href="#">Вопросы и ответы</a>
-				</li>
-				<li>
-					<a href="#">Контакты</a>
-				</li>
-			</ul>
+			<div class="menu-list">
+				<ul>
+					<li>
+						<a href="#benefits">Преимущества</a>
+					</li>
+					<li>
+						<a href="#about">О нас</a>
+					</li>
+					<li>
+						<a href="#sample">Примеры привезенных авто</a>
+					</li>
+					<li>
+						<a href="#hiw">Как все работает</a>
+					</li>
+					<li>
+						<a href="#feedbacks">Отзывы</a>
+					</li>
+					<li>
+						<a href="#faq">Вопросы и ответы</a>
+					</li>
+					<li>
+						<a href="#contacts">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-hidden">
+				<div class="header-contacts">
+					<div class="header-contacts-call">
+						<button class="header-contacts-title">(044) 123 45 45</button>
+						<div class="header-contacts-subtitle">Заказать звонок</div>
+						<div class="header-contacts-drop">
+							<ul>
+								<li>
+									<a href="tel:+380971234545">(097) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380631234545">(063) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380661234545">(066) 123 45 45</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-contacts-address">
+						<button class="header-contacts-title">Адреса офисов</button>
+					</div>
+				</div>
+				<div class="tracker">
+					<a href="#" class="btn-border">Отследить мое авто</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="body">
@@ -91,7 +133,7 @@
 					<p>Подзаголовок, раскрывающий суть заголовка и оффера.<br>
 						Доносим ключевую ценность продукта для клиента.</p>
 					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open">Получить консультацию</a>
-					<a href="#" class="video-link">Об услуге в 2-х минутном видео</a>
+					<a href="#" data-target=".modal-video" class="video-link modal-open">Об услуге в 2-х минутном видео</a>
 				</div>
 			</div>
 			<div class="cars">
@@ -102,12 +144,12 @@
 		</div>
 		<div class="why edge back-white">
 			<div class="container">
-				<h2>Почему стоит выбрать нас</h2>
+				<h2 id="benefits">Почему стоит выбрать нас</h2>
 				<div class="why-list">
 					<div class="why-item">
 						<div class="why-item-img warranty">
 							<img src="img/on-road.jpg" alt="">
-							<a href="#" class="video-link">Смотреть видео с гарантии</a>
+							<a href="#" data-target=".modal-video" class="video-link modal-open">Смотреть видео с гарантии</a>
 						</div>
 						<div class="why-item-cont">
 							<div class="why-item-title">Финансовая гарантия, что бюджет авто с ремонтом попадет в установленную смету</div>
@@ -131,7 +173,7 @@
 					<div class="why-item">
 						<div class="why-item-img">
 							<img src="img/work.jpg" alt="">
-							<a href="#" class="video-link">Видео, как мы подбираем авто</a>
+							<a href="#" data-target=".modal-video" class="video-link modal-open">Видео, как мы подбираем авто</a>
 						</div>
 						<div class="why-item-cont">
 							<div class="why-item-title">Опытные эксперты по подбору, оформлению и ремонту авто</div>
@@ -209,25 +251,25 @@
 					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open">Заказать консультацию</a>
 				</div>
 				<div class="feedbacks">
-					<h2>Отзывы наших клиентов</h2>
+					<h2 id="feedbacks">Отзывы наших клиентов</h2>
 					<div class="slider-videos owl-carousel">
 						<div class="item">
-							<a href="#"><img src="img/preview1.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview1.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#"><img src="img/preview2.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview2.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#"><img src="img/preview3.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview3.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#"><img src="img/preview4.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview4.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#"><img src="img/preview2.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview2.png" alt=""></a>
 						</div>
 					</div>
-					<div class="slider-feedback-wrap">
+					<div id="sample" class="slider-feedback-wrap">
 						<div class="slider-feedback owl-carousel">
 							<div class="item">
 								<div class="feedback-item">
@@ -569,7 +611,7 @@
 			<div class="container">
 				<h2>Каталог автомобилей в США</h2>
 				<div class="catalog-list row">
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -601,7 +643,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -633,7 +675,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -665,7 +707,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -697,7 +739,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -729,7 +771,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -874,7 +916,7 @@
 					</form>
 				</div>
 				<div class="hiw">
-					<h2>Как все работает</h2>
+					<h2 id="hiw">Как все работает</h2>
 					<div class="hiw-nav">
 						<div class="hiw-nav-item first active">
 							<button>
@@ -1025,7 +1067,7 @@
 			<div class="container">
 				<h2>Цены на услуги</h2>
 				<div class="row pack-list">
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div data-value="min" class="pack-item">
 							<div class="pack-item-title">Минимум</div>
 							<div class="pack-item-cont">
@@ -1043,7 +1085,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div data-value="mid" class="pack-item">
 							<div class="pack-item-title">Базовый</div>
 							<div class="pack-item-cont">
@@ -1061,7 +1103,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div data-value="max" class="pack-item">
 							<div class="pack-item-title">Премиум</div>
 							<div class="pack-item-cont">
@@ -1082,7 +1124,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="about">
+		<div id="about" class="about">
 			<div class="container">
 				<div class="about-in">
 					<div class="about-title">О компании IMPORTCARS</div>
@@ -1103,7 +1145,7 @@
 			<div class="container">
 				<h2>Наша команда</h2>
 				<div class="row team-list">
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1114,7 +1156,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1125,7 +1167,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1136,7 +1178,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1147,7 +1189,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1158,7 +1200,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1169,7 +1211,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1180,7 +1222,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-3">
+					<div class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1221,22 +1263,22 @@
 					<div class="socials-title">Следите за нами в соцсетях</div>
 					<div class="socials-subtitle">Актуальные новости о рынке авто. Новинки, привезенные в Украину из США.<br> Эксклюзивные авто, которые мы купили и доставили клиентам и многое другое.</div>
 					<div class="row socials-list">
-						<div class="col-3">
+						<div class="col-lg-3 col-sm-6">
 							<div class="socials-item fb">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-3">
+						<div class="col-lg-3 col-sm-6">
 							<div class="socials-item insta">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-3">
+						<div class="col-lg-3 col-sm-6">
 							<div class="socials-item youtube">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-3">
+						<div class="col-lg-3 col-sm-6">
 							<div class="socials-item telegram">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
@@ -1247,7 +1289,7 @@
 		</div>
 		<div class="faq edge back-gray">
 			<div class="container">
-				<h2>Вопросы и ответы</h2>
+				<h2 id="faq">Вопросы и ответы</h2>
 				<div class="faq-list">
 					<div class="faq-item">
 						<button class="faq-title">Название частого вопроса или возражения</button>
@@ -1285,9 +1327,9 @@
 		</div>
 		<div class="contacts">
 			<div class="container">
-				<h2>Контакты и адреса офисов</h2>
+				<h2 id="contacts">Контакты и адреса офисов</h2>
 				<div class="contacts-list row">
-					<div class="col-6">
+					<div class="col-lg-6">
 						<div class="contacts-item">
 							<div class="contacts-info">
 								<div class="contacts-city">Киев</div>
@@ -1313,7 +1355,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-6">
+					<div class="col-lg-6">
 						<div class="contacts-item">
 							<div class="contacts-info">
 								<div class="contacts-city">Харьков</div>
@@ -1578,6 +1620,14 @@
 					</div>
 				</form>
 			</div>
+			<button class="modal-close"></button>
+		</div>
+		<div class="modal-back"></div>
+	</div>
+
+	<div class="modal-custom modal-video">
+		<div class="modal-cont">
+			<iframe src="https://www.youtube.com/embed/hvdW86xcnco" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			<button class="modal-close"></button>
 		</div>
 		<div class="modal-back"></div>

@@ -40,6 +40,19 @@
 					<div class="header-contacts-call">
 						<button class="header-contacts-title">(044) 123 45 45</button>
 						<div class="header-contacts-subtitle">Заказать звонок</div>
+						<div class="header-contacts-drop">
+							<ul>
+								<li>
+									<a href="tel:+380971234545">(097) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380631234545">(063) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380661234545">(066) 123 45 45</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="header-contacts-address">
 						<button class="header-contacts-title">Адреса офисов</button>
@@ -58,37 +71,204 @@
 	</header>
 	<div class="menu-wrap">
 		<div class="container">
-			<ul>
-				<li>
-					<a href="#">Преимущества</a>
-				</li>
-				<li>
-					<a href="#">О нас</a>
-				</li>
-				<li>
-					<a href="#">Примеры привезенных авто</a>
-				</li>
-				<li>
-					<a href="#">Как все работает</a>
-				</li>
-				<li>
-					<a href="#">Отзывы</a>
-				</li>
-				<li>
-					<a href="#">Вопросы и ответы</a>
-				</li>
-				<li>
-					<a href="#">Контакты</a>
-				</li>
-			</ul>
+			<div class="menu-list">
+				<ul>
+					<li>
+						<a href="#benefits">Преимущества</a>
+					</li>
+					<li>
+						<a href="#about">О нас</a>
+					</li>
+					<li>
+						<a href="#sample">Примеры привезенных авто</a>
+					</li>
+					<li>
+						<a href="#hiw">Как все работает</a>
+					</li>
+					<li>
+						<a href="#feedbacks">Отзывы</a>
+					</li>
+					<li>
+						<a href="#faq">Вопросы и ответы</a>
+					</li>
+					<li>
+						<a href="#contacts">Контакты</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-hidden">
+				<div class="header-contacts">
+					<div class="header-contacts-call">
+						<button class="header-contacts-title">(044) 123 45 45</button>
+						<div class="header-contacts-subtitle">Заказать звонок</div>
+						<div class="header-contacts-drop">
+							<ul>
+								<li>
+									<a href="tel:+380971234545">(097) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380631234545">(063) 123 45 45</a>
+								</li>
+								<li>
+									<a href="tel:+380661234545">(066) 123 45 45</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="header-contacts-address">
+						<button class="header-contacts-title">Адреса офисов</button>
+					</div>
+				</div>
+				<div class="tracker">
+					<a href="#" class="btn-border">Отследить мое авто</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="body in">
 		<div class="catalog-page">
 			<div class="container">
 				<h2>Каталог автомобилей</h2>
+				<div class="filters-list row">
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="filters-item">
+							<button class="filters-toggle">Бюджет авто</button>
+							<div class="filters-drop">
+								<form action="">
+									<div class="filters-check-list">
+										<div class="filters-check">
+											<input type="radio" id="price1" name="price">
+											<label for="price1">до 10 000$</label>
+										</div>
+										<div class="filters-check">
+											<input type="radio" id="price2" name="price">
+											<label for="price2">от 10 000$ до 15 000$</label>
+										</div>
+										<div class="filters-check">
+											<input type="radio" id="price3" name="price">
+											<label for="price3">от 15 000$ до 25 000$</label>
+										</div>
+										<div class="filters-check">
+											<input type="radio" id="price4" name="price">
+											<label for="price4">от 25 000$</label>
+										</div>
+									</div>
+									<button type="submit" class="btn-arrow bordered">Применить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="filters-item">
+							<button class="filters-toggle">Марка авто</button>
+							<div class="filters-drop">
+								<form action="">
+									<div class="filters-check-list">
+										<div class="filters-check">
+											<input type="checkbox" id="brand1" name="brand">
+											<label for="brand1">Audi</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="brand2" name="brand">
+											<label for="brand2">Mersedes</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="brand3" name="brand">
+											<label for="brand3">BMW</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="brand4" name="brand">
+											<label for="brand4">Opel</label>
+										</div>
+									</div>
+									<button type="submit" class="btn-arrow bordered">Применить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="filters-item">
+							<button class="filters-toggle">Год выпуска</button>
+							<div class="filters-drop">
+								<form action="">
+									<div class="filters-check-list">
+										<div class="filters-check">
+											<input type="checkbox" id="year1" name="year">
+											<label for="year1">2019</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year2" name="year">
+											<label for="year2">2018</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year3" name="year">
+											<label for="year3">2017</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year4" name="year">
+											<label for="year4">2016</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year5" name="year">
+											<label for="year5">2015</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year6" name="year">
+											<label for="year6">2014</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year7" name="year">
+											<label for="year7">2013</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year8" name="year">
+											<label for="year8">2012</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year9" name="year">
+											<label for="year9">2011</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="year10" name="year">
+											<label for="year10">2010</label>
+										</div>
+									</div>
+									<button type="submit" class="btn-arrow bordered">Применить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6">
+						<div class="filters-item">
+							<button class="filters-toggle">Модель авто</button>
+							<div class="filters-drop">
+								<form action="">
+									<div class="filters-check-list">
+										<div class="filters-check">
+											<input type="checkbox" id="test1" name="test">
+											<label for="test1">test1</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="test2" name="test">
+											<label for="test2">test2</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="test3" name="test">
+											<label for="test3">test3</label>
+										</div>
+										<div class="filters-check">
+											<input type="checkbox" id="test4" name="test">
+											<label for="test4">test4</label>
+										</div>
+									</div>
+									<button type="submit" class="btn-arrow bordered">Применить</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="catalog-list row">
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -117,7 +297,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -146,7 +326,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -175,7 +355,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -204,7 +384,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -233,7 +413,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -262,7 +442,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -291,7 +471,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
@@ -320,7 +500,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4">
+					<div class="col-xl-4 col-lg-6">
 						<div class="car-card">
 							<div class="car-card-img">
 								<a href="#"><img src="img/car-card.png" alt=""></a>
