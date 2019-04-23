@@ -21,7 +21,7 @@
 	<!-- Custom Browsers Color Start -->
 	<meta name="theme-color" content="#000">
 	<!-- Custom Browsers Color End -->
-
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<link rel="stylesheet" href="css/main.min.css">
 
 </head>
@@ -60,7 +60,7 @@
 				</div>
 				<div class="header-right">
 					<div class="tracker">
-						<a href="#" class="btn-border">Отследить мое авто</a>
+						<a href="#" class="btn-border"><span>Отследить мое авто</span></a>
 					</div>
 					<div class="menu-toggle">
 						<button><span></span></button>
@@ -120,7 +120,7 @@
 					</div>
 				</div>
 				<div class="tracker">
-					<a href="#" class="btn-border">Отследить мое авто</a>
+					<a href="#" class="btn-border"><span>Отследить мое авто</span></a>
 				</div>
 			</div>
 		</div>
@@ -132,7 +132,7 @@
 					<h1>Авто из США с гарантией фиксированной сметы под ключ</h1>
 					<p>Подзаголовок, раскрывающий суть заголовка и оффера.<br>
 						Доносим ключевую ценность продукта для клиента.</p>
-					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open">Получить консультацию</a>
+					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open"><span>Получить консультацию</span></a>
 					<a href="#" data-target=".modal-video" class="video-link modal-open">Об услуге в 2-х минутном видео</a>
 				</div>
 			</div>
@@ -141,6 +141,7 @@
 				<img src="img/car2.png" alt="">
 				<img src="img/car3.png" alt="">
 			</div>
+			<button class="to-next"><img src="img/mouse.svg" alt=""></button>
 		</div>
 		<div class="why edge back-white">
 			<div class="container">
@@ -148,22 +149,26 @@
 				<div class="why-list">
 					<div class="why-item">
 						<div class="why-item-img warranty">
+							<span class="stamp" data-aos="zoom-in" data-aos-delay="500"><img src="img/warranty.svg" alt=""></span>
 							<img src="img/on-road.jpg" alt="">
-							<a href="#" data-target=".modal-video" class="video-link modal-open">Смотреть видео с гарантии</a>
+							<div class="why-item-video" data-aos="fade-up">
+								<a href="#" data-target=".modal-video" class="video-link modal-open">Смотреть видео с гарантии</a>
+							</div>
 						</div>
 						<div class="why-item-cont">
-							<div class="why-item-title">Финансовая гарантия, что бюджет авто с ремонтом попадет в установленную смету</div>
-							<div class="why-item-text">Перед выкупом выбранного авто мы делаем детальный расчет<br> всех расходов вплоть до восстановления и фиксируем смету в договоре.<br> Если расходы в процессе будут больше, мы покроем их за свой счет!</div>
+							<span class="back" data-aos="fade-up" data-aos-delay="150"></span>
+							<div class="why-item-title" data-aos="fade-up">Финансовая гарантия, что бюджет авто с ремонтом попадет в установленную смету</div>
+							<div class="why-item-text" data-aos="fade-up">Перед выкупом выбранного авто мы делаем детальный расчет<br> всех расходов вплоть до восстановления и фиксируем смету в договоре.<br> Если расходы в процессе будут больше, мы покроем их за свой счет!</div>
 							<div class="icon-list">
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/policy.svg" alt=""></div>
 									<div class="icon-item-text">Гарантия прописана в договоре<br> и имеет юридическую силу</div>
 								</div>
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/hand.svg" alt=""></div>
 									<div class="icon-item-text">Надежный авторский метод проверки авто<br> на основании 11 факторов</div>
 								</div>
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/reliability.svg" alt=""></div>
 									<div class="icon-item-text">Покупка авто исключительно у проверенных<br> и надежных дилеров</div>
 								</div>
@@ -173,13 +178,16 @@
 					<div class="why-item">
 						<div class="why-item-img">
 							<img src="img/work.jpg" alt="">
-							<a href="#" data-target=".modal-video" class="video-link modal-open">Видео, как мы подбираем авто</a>
+							<div class="why-item-video" data-aos="fade-up">
+								<a href="#" data-target=".modal-video" class="video-link modal-open">Видео, как мы подбираем авто</a>
+							</div>
 						</div>
 						<div class="why-item-cont">
-							<div class="why-item-title">Опытные эксперты по подбору, оформлению и ремонту авто</div>
-							<div class="why-item-text">Здесь объясняем что у нас работают специалисты с опытом в автоиндустрии<br> от 7-10 лет. Они знают все нюансы, связанные с выбором, дефектами и оценкой<br> ремонта авто.</div>
+							<span class="back" data-aos="fade-up" data-aos-delay="150"></span>
+							<div class="why-item-title" data-aos="fade-up">Опытные эксперты по подбору, оформлению и ремонту авто</div>
+							<div class="why-item-text" data-aos="fade-up">Здесь объясняем что у нас работают специалисты с опытом в автоиндустрии<br> от 7-10 лет. Они знают все нюансы, связанные с выбором, дефектами и оценкой<br> ремонта авто.</div>
 							<div class="icon-list">
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/mechanical.svg" alt=""></div>
 									<div class="icon-item-text">
 										<b>Проверка истории и дефектов</b>
@@ -187,7 +195,7 @@
 										Объясняем на 2-3 строчках текста
 									</div>
 								</div>
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/maintenance.svg" alt=""></div>
 									<div class="icon-item-text">
 										<b>Точная оценка ремонта до мелочей</b>
@@ -195,7 +203,7 @@
 										Объясняем на 2-3 строчках текста
 									</div>
 								</div>
-								<div class="icon-item">
+								<div class="icon-item" data-aos="fade-up">
 									<div class="icon-item-img"><img src="img/car-service.svg" alt=""></div>
 									<div class="icon-item-text">
 										<b>Проверка авто до покупки США</b>
@@ -213,14 +221,16 @@
 			<div class="container">
 				<div class="why-single">
 					<div class="why-single-img">
-						<img src="img/car4.png" alt="">
+						<img src="img/car4.png" alt="" data-aos="fade-right" data-aos-delay="500">
+						<img src="img/key.png" alt="" data-aos="zoom-in" data-aos-delay="800">
 					</div>
 					<div class="why-item-cont">
-						<div class="why-item-title">Услуга под ключ - сел и поехал</div>
-						<div class="why-item-text">Мы полностью берем на себя все заботы связанные с подбором, выкупом,<br> доставкой и таможенным оформлением авто. Зачастую мы восстанавливаем<br> для наших клиентов авто под ключ. Вам нужно лишь сесть в ваше новое авто<br> и завести двигатель.</div>
+						<span class="back" data-aos="fade-up" data-aos-delay="150"></span>
+						<div class="why-item-title" data-aos="fade-up">Услуга под ключ - сел и поехал</div>
+						<div class="why-item-text" data-aos="fade-up">Мы полностью берем на себя все заботы связанные с подбором, выкупом,<br> доставкой и таможенным оформлением авто. Зачастую мы восстанавливаем<br> для наших клиентов авто под ключ. Вам нужно лишь сесть в ваше новое авто<br> и завести двигатель.</div>
 					</div>
 					<div class="icon-list">
-						<div class="icon-item">
+						<div class="icon-item" data-aos="fade-up">
 							<div class="icon-item-img"><img src="img/pistons.svg" alt=""></div>
 							<div class="icon-item-text">
 								<b>Лучшие цены на запчасти</b>
@@ -229,7 +239,7 @@
 								недоступны в рознице.
 							</div>
 						</div>
-						<div class="icon-item">
+						<div class="icon-item" data-aos="fade-up">
 							<div class="icon-item-img"><img src="img/car-service-2.svg" alt=""></div>
 							<div class="icon-item-text">
 								<b>Ремонт на собственных СТО</b>
@@ -237,7 +247,7 @@
 								на свох СТО на высшем уровне.
 							</div>
 						</div>
-						<div class="icon-item">
+						<div class="icon-item" data-aos="fade-up">
 							<div class="icon-item-img"><img src="img/contract.svg" alt=""></div>
 							<div class="icon-item-text">
 								<b>Проверка авто до покупки США</b>
@@ -248,25 +258,25 @@
 					</div>
 				</div>
 				<div class="text-center">
-					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open">Заказать консультацию</a>
+					<a href="#" data-target=".modal-cons" class="btn-arrow modal-open" data-aos="fade-up"><span>Заказать консультацию</span></a>
 				</div>
 				<div class="feedbacks">
 					<h2 id="feedbacks">Отзывы наших клиентов</h2>
 					<div class="slider-videos owl-carousel">
 						<div class="item">
-							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview1.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open video-link"><img src="img/preview1.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview2.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open video-link"><img src="img/preview2.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview3.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open video-link"><img src="img/preview3.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview4.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open video-link"><img src="img/preview4.png" alt=""></a>
 						</div>
 						<div class="item">
-							<a href="#" data-target=".modal-video" class="modal-open"><img src="img/preview2.png" alt=""></a>
+							<a href="#" data-target=".modal-video" class="modal-open video-link"><img src="img/preview2.png" alt=""></a>
 						</div>
 					</div>
 					<div id="sample" class="slider-feedback-wrap">
@@ -301,10 +311,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -320,16 +333,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -342,10 +355,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -361,16 +377,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -383,10 +399,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -402,16 +421,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -424,10 +443,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -443,16 +465,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -465,10 +487,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -484,16 +509,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -506,10 +531,13 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -525,16 +553,16 @@
 										</div>
 										<div class="feedback-about">
 											<div class="feedback-car">Ford Mustang 2017</div>
-											<div class="feedback-prices">
-												<div class="feedback-price">
+											<div class="price-wrap">
+												<div class="price-item">
 													<div>Цена покупки в США:</div>
 													<div>10 900 $</div>
 												</div>
-												<div class="feedback-price new">
+												<div class="price-item new">
 													<div>Цена под ключ:</div>
 													<div>21 200 $</div>
 												</div>
-												<div class="feedback-price-comp">
+												<div class="price-item-comp">
 													Цена аналога в Украине: <b>37 000 $</b>
 												</div>
 											</div>
@@ -547,10 +575,57 @@
 											<a href="#">Профиль в Facebook</a>
 										</div>
 										<div class="feedback-text">
-											<p>
-												Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
-												По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad atque dolorem dolores fugit in minima molestias odit qui quia ullam.</p>
+											</div>
+										</div>
+										<div class="feedback-all">
+											<button>читать полностью</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="feedback-item">
+									<div class="feedback-left">
+										<div class="feedback-img">
+											<img src="img/feedback.png" alt="">
+										</div>
+										<div class="feedback-about">
+											<div class="feedback-car">Ford Mustang 2017</div>
+											<div class="price-wrap">
+												<div class="price-item">
+													<div>Цена покупки в США:</div>
+													<div>10 900 $</div>
+												</div>
+												<div class="price-item new">
+													<div>Цена под ключ:</div>
+													<div>21 200 $</div>
+												</div>
+												<div class="price-item-comp">
+													Цена аналога в Украине: <b>37 000 $</b>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="feedback-right">
+										<div class="feedback-name">Андрей Беспалов</div>
+										<div class="feedback-city">Киев</div>
+										<div class="feedback-link">
+											<a href="#">Профиль в Facebook</a>
+										</div>
+										<div class="feedback-text">
+											<div>
+												<p>
+													Когда решил купить авто, начал изучать рынок бу в Украине. Критерием отбора был бюджет, порядка $5-6к, коробка автомат и честный пробег.
+													По итогу в этом ценом диапазоне были откровенные "ведра", Что то приличное можно было взять за $10к+...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</p>
+												<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae exercitationem minus nam non officia qui quibusdam similique, temporibus veniam! Fugiat labore non nostrum reprehenderit! Delectus exercitationem hic, ipsam minus qui repellat sequi! Aperiam commodi dolorum et fugit maiores maxime nobis numquam placeat quam quisquam sed, sequi voluptas voluptates. Atque corporis dicta dignissimos distinctio eaque eligendi enim est eum explicabo fuga fugiat id labore laboriosam magnam maiores necessitatibus officiis omnis quae quaerat quas quibusdam rem, repellat rerum sapiente sed tempore tenetur voluptate! Dolores, ea eum incidunt iste, iure laboriosam libero nemo nihil numquam quas quod soluta, temporibus veniam vitae voluptas.</p>
+											</div>
 										</div>
 										<div class="feedback-all">
 											<button>читать полностью</button>
@@ -566,21 +641,21 @@
 		<div class="cons">
 			<div class="container">
 				<div class="cons-in">
-					<div class="cons-title">Закажите консультацию в офисе<br> с подбором 5 вариантов авто</div>
-					<div class="cons-subtitle">Наш автоэксперт предоставит консультацию по выбору авто и сделает подборку<br> целевых вариантов с детальной сметой с ремонтом под ключ</div>
-					<div class="cons-img">
+					<div class="cons-title" data-aos="fade-up">Закажите консультацию в офисе<br> с подбором 5 вариантов авто</div>
+					<div class="cons-subtitle" data-aos="fade-up">Наш автоэксперт предоставит консультацию по выбору авто и сделает подборку<br> целевых вариантов с детальной сметой с ремонтом под ключ</div>
+					<div class="cons-img" data-aos="fade-up">
 						<img src="img/cars.png" alt="">
 					</div>
 					<div class="cons-block">
 						<div class="icon-list">
-							<div class="icon-item">
+							<div class="icon-item" data-aos="fade-up">
 								<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
 								<div class="icon-item-text">
 									Значимая выгода от консультации,<br>
 									которая мотивирует отправить заявку
 								</div>
 							</div>
-							<div class="icon-item">
+							<div class="icon-item" data-aos="fade-up">
 								<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
 								<div class="icon-item-text">
 									Значимая выгода от консультации,<br>
@@ -588,7 +663,7 @@
 								</div>
 							</div>
 						</div>
-						<form action="">
+						<form action="" data-aos="fade-up">
 							<div class="form-block">
 								<input type="text" placeholder="Имя">
 							</div>
@@ -596,10 +671,10 @@
 								<input type="tel" placeholder="Телефон">
 							</div>
 							<div class="form-block last">
-								<button type="submit" class="btn-arrow">Заказать просчет вариантов авто</button>
+								<button type="submit" data-target=".done-fixed" class="btn-arrow modal-open"><span>Заказать просчет вариантов авто</span></button>
 							</div>
 							<div class="form-check">
-								<input type="checkbox" id="agree1">
+								<input type="checkbox" id="agree1" checked>
 								<label for="agree1">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 							</div>
 						</form>
@@ -638,7 +713,7 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
@@ -670,7 +745,7 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
@@ -702,7 +777,7 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
@@ -734,7 +809,7 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
@@ -766,7 +841,7 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
@@ -798,14 +873,14 @@
 									</div>
 								</div>
 								<div class="car-card-link">
-									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open">Заказать подбор этой модели</a>
+									<a href="#" data-target=".modal-select" class="btn-arrow bordered modal-open"><span>Заказать подбор этой модели</span></a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="text-center">
-					<a href="#" data-target=".modal-catalog" class="btn-arrow modal-open">Смотреть все авто</a>
+					<a href="#" data-target=".modal-catalog" class="btn-arrow modal-open"><span>Смотреть все авто</span></a>
 				</div>
 			</div>
 		</div>
@@ -912,7 +987,98 @@
 							<div class="calc-block-title">Эти параметры влияют на расчет акцизного сбора<br> и пошлинных платежей.</div>
 						</div>
 						<div class="calc-notice">Стоимость доставки в порт отправки: 500$</div>
-						<button type="submit" class="btn-arrow">Рассчитать стоимость</button>
+						<button type="button" class="btn-arrow calc-result-open"><span>Рассчитать стоимость</span></button>
+                        <div class="calc-result">
+                            <div class="calc-result-title">Расчет стоимости</div>
+                            <div class="calc-result-table">
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Стоимость авто в США</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Комиссия аукциона Copart.com IAA Public Buyer Fees Manheim</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Стоимость доставки в порт отправки:</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Стоимость 1-го места из 4-х в контейнере</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Отправка документов почтой в Украину</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Экспедирование порт Одесса</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Подготовка документов к таможенной очистке</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Ввозная ставка пошлина (10%)</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Акцизный сбор</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Цена без НДС</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>НДС</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item wide">
+                                    <div class="calc-result-table-name">
+                                        <span>Цена с НДС</span>
+                                        <div class="form-check">
+                                            <input type="checkbox" id="check1">
+                                            <label for="check1">Учесть занижение таможенных ставок с учетом повреждений от ДТП</label>
+                                        </div>
+                                    </div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item">
+                                    <div class="calc-result-table-name"><span>Услуги компании Importcars</span></div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                                <div class="calc-result-table-item wide">
+                                    <div class="calc-result-table-name">
+                                        <span>Ввозная ставка пошлина (10%)</span>
+                                        <div class="form-check">
+                                            <input type="checkbox" id="check2">
+                                            <label for="check2">Транспортировка по Украине</label>
+                                        </div>
+                                        <div class="form-check">
+                                            <input type="checkbox" id="check3">
+                                            <label for="check3">Услуги оплаты</label>
+                                        </div>
+                                    </div>
+                                    <div class="calc-result-table-value">425$</div>
+                                </div>
+                            </div>
+                            <div class="calc-result-total">
+                                <div>10 671$</div>
+                            </div>
+                            <div class="calc-result-form">
+                                <div class="form-block">
+                                    <input type="email" placeholder="Email">
+                                </div>
+                                <div class="form-block">
+                                    <button type="submit" class="btn-arrow bordered"><span>Выслать на email</span></button>
+                                </div>
+                                <div class="form-block">
+                                    <button  class="btn-arrow bordered"><span>Распечатать</span></button>
+                                </div>
+                            </div>
+                        </div>
 					</form>
 				</div>
 				<div class="hiw">
@@ -986,8 +1152,8 @@
 										<div class="hiw-title"><span>2</span> Подбираем варинаты авто</div>
 										<div class="hiw-text">На встрече согласовываем ваши пожеланию к авто и бюджет. Знакомим с процессом, делаем первичную подборку авто вместе с вами. Рассказываем про другие детали этого шага в терминах выгод для клиента.</div>
 									</div>
-									<div class="hiw-img">
-										<img src="img/hiw.png" alt="">
+									<div class="hiw-video">
+                                        <iframe src="https://www.youtube.com/embed/AlQaCO6GISw?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 									</div>
 								</div>
 							</div>
@@ -1067,7 +1233,7 @@
 			<div class="container">
 				<h2>Цены на услуги</h2>
 				<div class="row pack-list">
-					<div class="col-xl-4 col-lg-6">
+					<div data-aos="fade-up" class="col-xl-4 col-lg-6">
 						<div data-value="min" class="pack-item">
 							<div class="pack-item-title">Минимум</div>
 							<div class="pack-item-cont">
@@ -1081,11 +1247,11 @@
 									<li class="disabled">Ремонт авто, подбор запчастей</li>
 								</ul>
 								<div class="pack-item-price">цена<b>490</b><span>$</span></div>
-								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open">Заказать консультацию</a>
+								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open"><span>Заказать консультацию</span></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-6">
+					<div data-aos="fade-up" data-aos-delay="100" class="col-xl-4 col-lg-6">
 						<div data-value="mid" class="pack-item">
 							<div class="pack-item-title">Базовый</div>
 							<div class="pack-item-cont">
@@ -1099,11 +1265,11 @@
 									<li class="disabled">Ремонт авто, подбор запчастей</li>
 								</ul>
 								<div class="pack-item-price">цена<b>990</b><span>$</span></div>
-								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open">Заказать консультацию</a>
+								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open"><span>Заказать консультацию</span></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-4 col-lg-6">
+					<div data-aos="fade-up" data-aos-delay="200" class="col-xl-4 col-lg-6">
 						<div data-value="max" class="pack-item">
 							<div class="pack-item-title">Премиум</div>
 							<div class="pack-item-cont">
@@ -1117,7 +1283,7 @@
 									<li>Ремонт авто, подбор запчастей</li>
 								</ul>
 								<div class="pack-item-price">цена<b>1990</b><span>$</span></div>
-								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open">Заказать консультацию</a>
+								<a href="#" data-target=".modal-pack" class="btn-arrow modal-open"><span>Заказать консультацию</span></a>
 							</div>
 						</div>
 					</div>
@@ -1126,7 +1292,7 @@
 		</div>
 		<div id="about" class="about">
 			<div class="container">
-				<div class="about-in">
+				<div class="about-in" data-aos="fade-up">
 					<div class="about-title">О компании IMPORTCARS</div>
 					<div class="about-text">
 						<p>Мы — компания Importcars, которая с 2013 года занимается импортом авто в Украину из стран Европы и США.</p>
@@ -1145,7 +1311,7 @@
 			<div class="container">
 				<h2>Наша команда</h2>
 				<div class="row team-list">
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1156,7 +1322,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1167,7 +1333,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1178,7 +1344,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1189,7 +1355,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1200,7 +1366,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1211,7 +1377,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1222,7 +1388,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-xl-3 col-lg-4 col-md-6">
+					<div data-aos="fade-up" class="col-xl-3 col-lg-4 col-md-6">
 						<div class="team-member">
 							<div class="team-member-photo">
 								<img src="img/teammate.png" alt="">
@@ -1239,7 +1405,7 @@
 		<div class="guests back-white edge bottom">
 			<div class="container">
 				<div class="guests-in">
-					<div class="guests-block">
+					<div class="guests-block" data-aos="fade-up">
 						<div class="guests-title">Приходите к нам в гости</div>
 						<div class="guests-subtitle">И мы поговорим о машине вашей мечты</div>
 						<form action="">
@@ -1250,7 +1416,7 @@
 								<input type="tel" placeholder="Телефон">
 							</div>
 							<div class="form-block last">
-								<button type="submit" class="btn-arrow">Встретиться с нами на кофе в офисе</button>
+								<button data-target=".done-fixed" type="submit" class="btn-arrow modal-open"><span>Встретиться с нами на кофе в офисе</span></button>
 							</div>
 						</form>
 					</div>
@@ -1260,25 +1426,25 @@
 		<div class="socials">
 			<div class="container">
 				<div class="socials-in">
-					<div class="socials-title">Следите за нами в соцсетях</div>
-					<div class="socials-subtitle">Актуальные новости о рынке авто. Новинки, привезенные в Украину из США.<br> Эксклюзивные авто, которые мы купили и доставили клиентам и многое другое.</div>
+					<div class="socials-title" data-aos="fade-up">Следите за нами в соцсетях</div>
+					<div class="socials-subtitle" data-aos="fade-up">Актуальные новости о рынке авто. Новинки, привезенные в Украину из США.<br> Эксклюзивные авто, которые мы купили и доставили клиентам и многое другое.</div>
 					<div class="row socials-list">
-						<div class="col-lg-3 col-sm-6">
+						<div class="col-lg-3 col-sm-6" data-aos="fade-up">
 							<div class="socials-item fb">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-lg-3 col-sm-6">
+						<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
 							<div class="socials-item insta">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-lg-3 col-sm-6">
+						<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
 							<div class="socials-item youtube">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
 						</div>
-						<div class="col-lg-3 col-sm-6">
+						<div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
 							<div class="socials-item telegram">
 								<a href="#"><span>Подписаться</span></a>
 							</div>
@@ -1321,7 +1487,7 @@
 					</div>
 				</div>
 				<div class="text-center">
-					<a href="#" data-target=".modal-question" class="btn-arrow modal-open">Задать вопрос</a>
+					<a href="#" data-target=".modal-question" class="btn-arrow modal-open"><span>Задать вопрос</span></a>
 				</div>
 			</div>
 		</div>
@@ -1403,9 +1569,9 @@
 
 	<div class="modal-custom modal-cons modal-double">
 		<div class="modal-cont">
-			<img src="img/modal-car1.png" alt="" class="modal-img modal-img-1">
+			<div class="modal-img modal-img-1"><span class="animated fade-right"><img src="img/modal-car1.png" alt=""></span></div>
 			<div class="modal-col-left">
-				<div class="icon-list">
+				<div class="icon-list animated fade-up">
 					<div class="icon-item">
 						<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
 						<div class="icon-item-text">
@@ -1424,11 +1590,11 @@
 			</div>
 			<div class="modal-col-right">
 				<div class="modal-thanks">
-					<div class="modal-custom-title">Спасибо!<br> Заявка отправлена</div>
-					<div class="modal-text">Скоро наш эксперт перезвонит вам<br> и ответит на все вопросы</div>
+					<div class="modal-custom-title animated fade-up">Спасибо!<br> Заявка отправлена</div>
+					<div class="modal-text animated fade-up">Скоро наш эксперт перезвонит вам<br> и ответит на все вопросы</div>
 				</div>
-				<div class="modal-custom-title">Заявка на консультацию</div>
-				<div class="modal-text">Получите консультацию эксперта по авто по любому из интересующих вопросов. Мы перезвоним вам в течение 30 минут</div>
+				<div class="modal-custom-title animated fade-up">Заявка на консультацию</div>
+				<div class="modal-text animated fade-up">Получите консультацию эксперта по авто по любому из интересующих вопросов. Мы перезвоним вам в течение 30 минут</div>
 				<form action="">
 					<div class="form-block">
 						<input type="text" placeholder="Имя">
@@ -1437,10 +1603,10 @@
 						<input type="tel" placeholder="Телефон">
 					</div>
 					<div class="form-block last">
-						<button class="btn-arrow">Заказать консультацию</button>
+						<button class="btn-arrow"><span>Заказать консультацию</span></button>
 					</div>
 					<div class="form-check">
-						<input type="checkbox" id="agree2">
+						<input type="checkbox" id="agree2" checked>
 						<label for="agree2">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 					</div>
 				</form>
@@ -1450,9 +1616,41 @@
 		<div class="modal-back"></div>
 	</div>
 
+	<div class="modal-custom done-fixed modal-double">
+		<div class="modal-cont">
+			<div class="modal-img modal-img-1"><span class="animated fade-right"><img src="img/modal-car1.png" alt=""></span></div>
+			<div class="modal-col-left">
+				<div class="icon-list animated fade-up">
+					<div class="icon-item">
+						<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
+						<div class="icon-item-text">
+							Значимая выгода от консультации,<br>
+							которая мотивирует отправить заявку
+						</div>
+					</div>
+					<div class="icon-item">
+						<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
+						<div class="icon-item-text">
+							Значимая выгода от консультации,<br>
+							которая мотивирует отправить заявку
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="modal-col-right">
+				<div class="modal-thanks">
+					<div class="modal-custom-title animated fade-up">Спасибо!<br> Заявка отправлена</div>
+					<div class="modal-text animated fade-up">Спасибо, заявка отправлена! Скоро наш эксперт перезвонит вам и согласует удобное время встречи</div>
+				</div>
+			</div>
+			<button class="modal-close"></button>
+		</div>
+		<div class="modal-back"></div>
+	</div>
+
 	<div class="modal-custom modal-select modal-double">
 		<div class="modal-cont">
-			<img src="img/modal-car2.png" alt="" class="modal-img modal-img-2">
+			<div class="modal-img modal-img-2"><span class="animated fade-right"><img src="img/modal-car2.png" alt=""></span></div>
 			<div class="modal-col-left">
 				<div class="helper-wrap">
 					<div class="helper-photo">
@@ -1495,10 +1693,10 @@
 						<input type="tel" placeholder="Телефон">
 					</div>
 					<div class="form-block last">
-						<button class="btn-arrow">Заказать консультацию</button>
+						<button class="btn-arrow"><span>Заказать консультацию</span></button>
 					</div>
 					<div class="form-check">
-						<input type="checkbox" id="agree3">
+						<input type="checkbox" id="agree3" checked>
 						<label for="agree3">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 					</div>
 				</form>
@@ -1510,11 +1708,11 @@
 
 	<div class="modal-custom modal-pack modal-double">
 		<div class="modal-cont">
-			<img src="img/pack1.png" alt="" class="modal-img modal-img-3">
-			<img src="img/pack2.png" alt="" class="modal-img modal-img-4">
-			<img src="img/pack3.png" alt="" class="modal-img modal-img-5">
+			<div class="modal-img modal-img-3"><span class="animated fade-right"><img src="img/pack1.png" alt=""></span></div>
+			<div class="modal-img modal-img-4"><span class="animated fade-right"><img src="img/pack2.png" alt=""></span></div>
+			<div class="modal-img modal-img-5"><span class="animated fade-right"><img src="img/pack3.png" alt=""></span></div>
 			<div class="modal-col-left">
-				<div class="icon-list">
+				<div class="icon-list animated fade-up">
 					<div class="icon-item">
 						<div class="icon-item-img"><img src="img/positive-vote.svg" alt=""></div>
 						<div class="icon-item-text">
@@ -1534,11 +1732,11 @@
 			</div>
 			<div class="modal-col-right">
 				<div class="modal-thanks">
-					<div class="modal-custom-title">Спасибо!<br> Заявка отправлена</div>
-					<div class="modal-text">Скоро наш эксперт перезвонит вам<br> и ответит на все вопросы</div>
+					<div class="modal-custom-title animated fade-up">Спасибо!<br> Заявка отправлена</div>
+					<div class="modal-text animated fade-up">Скоро наш эксперт перезвонит вам<br> и ответит на все вопросы</div>
 				</div>
-				<div class="modal-custom-title">Заявка на консультацию<br> по услуге <span>премиум</span></div>
-				<div class="modal-text">Мы перезвоним вам в течение<br> 30 минут и ответим на все вопросы.</div>
+				<div class="modal-custom-title animated fade-up">Заявка на консультацию<br> по услуге <span>премиум</span></div>
+				<div class="modal-text animated fade-up">Мы перезвоним вам в течение<br> 30 минут и ответим на все вопросы.</div>
 				<form action="">
 					<div class="form-block">
 						<input type="text" placeholder="Имя">
@@ -1547,10 +1745,10 @@
 						<input type="tel" placeholder="Телефон">
 					</div>
 					<div class="form-block last">
-						<button class="btn-arrow">Заказать консультацию</button>
+						<button class="btn-arrow"><span>Заказать консультацию</span></button>
 					</div>
 					<div class="form-check">
-						<input type="checkbox" id="agree5">
+						<input type="checkbox" id="agree5" checked>
 						<label for="agree5">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 					</div>
 				</form>
@@ -1572,10 +1770,10 @@
 						<input type="tel" placeholder="Телефон">
 					</div>
 					<div class="form-block last">
-						<button class="btn-arrow">Перейти в каталог</button>
+						<button class="btn-arrow"><span>Перейти в каталог</span></button>
 					</div>
 					<div class="form-check">
-						<input type="checkbox" id="agree4">
+						<input type="checkbox" id="agree4" checked>
 						<label for="agree4">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 					</div>
 				</form>
@@ -1612,10 +1810,10 @@
 						<textarea placeholder="Вопрос"></textarea>
 					</div>
 					<div class="form-block last">
-						<button class="btn-arrow">Заказать консультацию</button>
+						<button class="btn-arrow"><span>Заказать консультацию</span></button>
 					</div>
 					<div class="form-check">
-						<input type="checkbox" id="agree6">
+						<input type="checkbox" id="agree6" checked>
 						<label for="agree6">Отправляя заяву я соглашаюсь с условиями<br> использования персональных данных</label>
 					</div>
 				</form>
@@ -1632,7 +1830,8 @@
 		</div>
 		<div class="modal-back"></div>
 	</div>
-
+    
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	<script src="js/scripts.min.js"></script>
 </body>
 </html>
